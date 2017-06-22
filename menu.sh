@@ -1,26 +1,29 @@
 #!/bin/bash
 #Menu
 
-echo 'figlet -k "$MYIP"' >> .bashrc
-echo 'echo -e "Selamat datang di server $MYIP"' >> .bashrc
-echo 'echo -e "Silahkan ketik daftar perintah yang tersedia"' >> .bashrc
-
-echo -e "============MENU=============="
-echo -e "* menu           : menampilkan daftar perintah yang tersedia"
-echo -e "* usernew        : membuat akun SSH"
-echo -e "* trial          : membuat akun trial"
-echo -e "* hapus          : menghapus akun SSH"
-echo -e "* login          : cek user login"
-echo -e "* member         : cek member SSH"
-echo -e "* restart        : restart service dropbear, webmin, squid3, openvpn dan ssh"
-echo -e "* reboot         : reboot VPS"
-echo -e "* speedtest      : speedtest VPS"
-echo -e "* bench-network  : Cek Kualitas VPS"
-echo -e "* ps-mem         : Cek RAM VPS"
-echo -e "* about          : informasi tentang script auto install"
-echo -e "=========THORN SSH============="
+echo -e "------------ Selamat datang di server $MYIP -----------"
+echo -e "Silahkan ketik daftar perintah yang tersedia"
+echo -e ""
+echo -e "========================DAFTAR MENU==========================="
+echo -e "Apa yang ingin anda lakukan?
+echo -e "* 1)  Menampilkan daftar perintah yang tersedia = menu"
+echo -e "* 2)  Membuat akun SSH                          = usernew"
+echo -e "* 3)  Membuat akun trial                        = trial"
+echo -e "* 4)  Menghapus akun SSH                        = hapus"
+echo -e "* 5)  Cek user login                            = login"
+echo -e "* 6)  Cek member SSH                            = member"
+echo -e "* 7)  Restart service dropbear, squid3, dll     = restart"
+echo -e "* 8)  Reboot VPS                                = reboot"
+echo -e "* 9)  Speedtest VPS                             = speedtest"
+echo -e "* 10) Cek Kualitas VPS                          = bench-network"
+echo -e "* 11) Cek RAM VPS                               = ps-mem"
+echo -e "* 12) informasi tentang script auto install     = about"
+echo -e ""
+echo -e "=========================THORN SSH============================"
+echo -e ""
 echo -e "ALL SUPPORTED by Yonatan Kanu as THORN SSH"
-echo -e "Contact Person : https://www.facebook.com/kanu.nugraha"
+echo -e ""
+echo -e "FB             : https://www.facebook.com/kanu.nugraha"
 echo -e "WhatsApp       : 085707136028"
 echo -e "Website        : http://yonatankanu.blogspot.co.id"
 echo -e "Website        : http://yonatankanu.wordpress.com/"
