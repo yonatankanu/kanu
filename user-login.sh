@@ -50,4 +50,9 @@ echo "------------------------------------------------"
 
 echo "";
 
-echo "Mod by Yonatan Kanu as THORN SSH";
+echo -e "MANTAU DULU YA MANG......NO MULTY KAN :V"
+echo -e "ALL SUPPORTED by Yonatan Kanu as THORN SSH"
+echo -e "WA : 085707136028"
+echo -e "FB: https://www.facebook.com/kanu.nugraha"
+echo -e "BLOG : http://yonatankanu.blogspot.co.id/"
+echo -e "BLOG : http://yonatankanu.wordpress.com/"
