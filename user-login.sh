@@ -44,8 +44,8 @@ done
 echo "";
 
 echo "------------------------------------------------"
-echo " Multi Login = Kill "
-echo " Cara pakai : Kill nomor PID "
+echo " Multi Login = kill "
+echo " Cara pakai : kill nomor PID "
 echo "------------------------------------------------"
 
 echo "";
