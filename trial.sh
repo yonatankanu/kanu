@@ -12,6 +12,11 @@ Pass=`</dev/urandom tr -dc a-f0-9 | head -c9`
 useradd -e `date -d "$hari days" +"%Y-%m-%d"` -s /bin/false -M thornssh-$Login
 echo -e "$Pass\n$Pass\n"|passwd thornssh-$Login &> /dev/null
 echo -e ""
+echo -e "------------------------------- MEMBUAT AKUN SSH -------------------------------"
+echo -e "                         ALL SUPPORTED BY THORN SSH                     "
+echo -e "           https://www.facebook.com/groups/1515866931798557/?ref=bookmarks"
+echo -e "  DEVELOPED BY Yonatan Kanu (https://www.facebook.com/kanu.nugraha , 085707136028)"
+
 echo -e "===YAH TRIALAN MANG :V==="
 echo -e "====TRIAL SSH account===="
 echo -e "Host: $IP" 
