@@ -1,6 +1,13 @@
 #!/bin/bash
 #Script auto create user SSH
 
+echo -e "------------------------------- MEMBUAT AKUN SSH -------------------------------"
+echo -e "                         ALL SUPPORTED BY THORN SSH                     "
+echo -e "           https://www.facebook.com/groups/1515866931798557/?ref=bookmarks"
+echo -e "  DEVELOPED BY Yonatan Kanu (https://www.facebook.com/kanu.nugraha , 085707136028)"
+
+echo -e ""
+
 read -p "Username : " Login
 read -p "Password : " Pass
 read -p "Expired (hari): " masaaktif
