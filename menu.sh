@@ -23,4 +23,5 @@ echo -e "FB	: https://www.facebook.com/kanu.nugraha"
 echo -e "WhatsApp	: 085707136028"
 echo -e "Website	: http://yonatankanu.blogspot.co.id/"
 echo -e "Website	: https://yonatankanu.wordpress.com/"
+
 echo -e ""
