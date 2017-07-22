@@ -1,7 +1,7 @@
 #!/bin/bash
 #Menu
 IP=`dig +short myip.opendns.com @resolver1.opendns.com`
-echo -e "------------ Selamat datang di server $MYIP -----------"
+echo -e "------------ Selamat datang di server $IP -----------"
 echo -e "Silakan ketik daftar perintah yang tersedia"
 echo -e "========================DAFTAR MENU==========================="
 echo -e "Apa yang ingin anda lakukan?"
